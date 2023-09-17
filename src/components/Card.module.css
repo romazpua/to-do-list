@@ -4,43 +4,28 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 10px;
+    border-radius: 19px;
+    transition: .2s;
 
-    &.add_task {
-        width: 40px;
-        padding: 0;
-        aspect-ratio: 1/1;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-
-        &:hover svg.item{
-            fill: black;
-        }
+    &:hover {
+        background-color: rgb(250, 250, 251);
     }
 }
 
 .item {
     flex: 0 1 auto;
+}
 
-    &.card_title {
-        flex-grow: 1;
-    }
+.card_value {
+    flex-grow: 1;
+    padding: 0 10px;
+    max-width: calc(100% - 350px);
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .timestamp {
     font-size: 13px;
 }
-
-svg {
-    fill: rgb(145, 144, 144);
-    cursor: pointer;
-    transition: .3s;
-
-    &:hover {
-        fill: rgb(75, 75, 75);
-    }
-}
-

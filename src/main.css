@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px 0;
+    margin: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
+    color: rgb(75, 75, 75);
+}
+
+.container {
+    width: clamp(320px, 80%, 1200px);
+    margin: auto;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 247);
+}
+
+.list_title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+svg {
+    fill: rgb(145, 144, 144);
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        fill: rgb(75, 75, 75);
+    }
+}

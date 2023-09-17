@@ -3,7 +3,7 @@ export const data = [
         id: 1,
         done: false,
         title: 'Some task 1',
-        value: 'Some task 1',
+        value: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus error laudantium non perferendis placeat possimus quae, quod sequi tempore? Alias consequatur dicta eos est et explicabo illum, in laborum magni maiores nemo pariatur possimus, quam quibusdam repellendus sed sint ut velit. At atque excepturi harum nostrum quisquam, sequi tempore vero.',
         timestamp: '2023-09-10T20:30:11.827Z',
     },
     {
@@ -17,14 +17,14 @@ export const data = [
         id: 3,
         done: true,
         title: 'Some task 3',
-        value: 'Some task 3',
+        value: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus error laudantium non perferendis placeat possimus quae, quod sequi tempore? Alias consequatur dicta eos est et explicabo illum, in laborum magni maiores nemo pariatur possimus, quam quibusdam repellendus sed sint ut velit. At atque excepturi harum nostrum quisquam, sequi tempore vero.',
         timestamp: '2023-09-10T20:30:13.827Z',
     },
     {
         id: 4,
         done: false,
         title: 'Some task 4',
-        value: 'Some task 4',
+        value: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus error laudantium non perferendis placeat possimus quae, quod sequi tempore? Alias consequatur dicta eos est et explicabo illum, in laborum magni maiores nemo pariatur possimus, quam quibusdam repellendus sed sint ut velit. At atque excepturi harum nostrum quisquam, sequi tempore vero.',
         timestamp: '2023-09-10T20:30:14.827Z',
     },
     {

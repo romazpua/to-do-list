@@ -13,7 +13,6 @@ export const tasksSlice = createSlice({
             state.items = [...state.items, action.payload]
         },
         deleteTask: (state, action) => {
-            console.log('timestamp', action.payload)
             state.items = state.items.filter(obj => obj.timestamp !== action.payload)
         }
     }

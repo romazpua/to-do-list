@@ -1,0 +1,21 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add_task_btn {
+    width: 40px;
+    padding: 0;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.add_task_btn:hover .item {
+        fill: black;
+}
