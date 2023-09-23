@@ -1,7 +1,7 @@
 import './main.css'
 import Cards from "./components/Cards";
 import {useDispatch, useSelector} from "react-redux";
-import {useEffect} from "react";
+import React, {useEffect} from "react";
 import {setTasks} from "./redux/slices/tasksSlice";
 import {data} from "./data";
 import Popup from "./components/Popup";
