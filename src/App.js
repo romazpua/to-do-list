@@ -6,6 +6,7 @@ import {setTasks} from "./redux/slices/tasksSlice";
 import {data} from "./data";
 import Popup from "./components/Popup";
 import {popupSelect} from "./redux/slices/popupSlice";
+import QuillEditor from "./components/QuillEditor";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <div className="container">
                 <h1 className="list_title">ToDo List</h1>
                 <Cards/>
+                <QuillEditor/>
             </div>
         </div>
     );

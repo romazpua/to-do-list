@@ -21,5 +21,5 @@ export const tasksSlice = createSlice({
 export const {setTasks, addTask, deleteTask} = tasksSlice.actions
 export const tasksSelect = (state) => state.todos.items
 
-export const singleTaskSelect = (state, timestamp) => state.todos.items.find(obj => obj.timestamp === timestamp)
+export const singleTaskSelect = (state, cardTimestamp) => state.todos.items.find(obj => obj.timestamp === cardTimestamp)
 export default tasksSlice.reducer
